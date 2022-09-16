@@ -20,7 +20,7 @@ for i in range(1,12):
   else:
     password += random.choice(symbols)
 
-for x in range(1,6):
+for x in range(1,5):
   password += str(random.randint(1,9))
 
 #print(password)
